@@ -1,5 +1,5 @@
 {% set name = "gym-pusht" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gym_pusht-{{ version }}.tar.gz
-  sha256: 5926ef8098bde7f6a180bdd34b4ce3a827fb333847cc54d8ad47c430e249f44c
+  sha256: 981e135f6e0ca91e4ec63603e9551bc77cba989d06a2888ed31a1d68f7cbdae2
 
 build:
   noarch: python
